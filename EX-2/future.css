@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./downtown-circle-above.jpg');
+    background-repeat: no-repeat;
+    width: 100vh;
+    background-size: 100% 100vh;
+}
+.heading{
+    background-color: rgb(0, 0, 0,0.4);
+    color: white;
+    width: 100vmax;
+    height: 100px;
+    padding: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading-title{
+    margin: 30px auto;
+ }
+ .container{
+    /* background-color: yellow; */
+    width: 100vmax;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content{
+    background-color: rgb(0, 0, 0,0.4);
+    margin: 10px auto;
+    width: 800px;
+    height: fit-content;
+    color: white;
+    padding: 30px;
+}
+.videoContainer{
+    height: fit-content;
+    width: fit-content;
+    margin: 0px auto;
+}
+.futureDubai{
+    width: 500px;
+}
